@@ -1,4 +1,4 @@
-﻿/* eslint-disable @next/next/no-html-link-for-pages */
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Link from 'next/link';
 import React from 'react';
 import { useState, useEffect } from "react";
@@ -60,76 +60,8 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                     </div>
                 </div>
             </header>
-            <div className="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
-                <div className="mobile-header-wrapper-inner">
-                    <div className="mobile-header-content-area">
-                        <div className="perfect-scroll">
-                            <div className="mobile-search mobile-header-border mb-30">
-                                <form action="#">
-                                    <input type="text" placeholder="Search…" /><i className="fi-rr-search" />
-                                </form>
-                            </div>
-                            
-                            <div className="mobile-account">
-                                <h6 className="mb-10">Your Account</h6>
-                                <ul className="mobile-menu font-heading">
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Profile</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Work Preferences</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Account Settings</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Go Pro</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="/page-signin"><a>Sign Out</a></Link>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
-                <div className="mobile-header-wrapper-inner">
-                    <div className="mobile-header-content-area">
-                        <div className="perfect-scroll">
-                            <div className="mobile-search mobile-header-border mb-30">
-                                <form action="#">
-                                    <input type="text" placeholder="Search…" /><i className="fi-rr-search" />
-                                </form>
-                            </div>
-                            
-                            <div className="mobile-account">
-                                <h6 className="mb-10">Your Account</h6>
-                                <ul className="mobile-menu font-heading">
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Profile</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Work Preferences</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Account Settings</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="#"><a>Go Pro</a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="/page-signin"><a>Sign Out</a></Link>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="site-copyright">Copyright 2022 © JobBox. <br />Designed by AliThemes.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            
         </>
     );
 };
